@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Timer</h1>
+
+        <!-- Display Area -->
+        <div class="timer-display" id="timer-display">00:00:00</div>
+
+        <!-- Stopwatch Controls -->
+        <div class="button-row">
+            <button id="start-stopwatch">Start Stopwatch</button>
+            <button id="stop-stopwatch">Stop Stopwatch</button>
+            <button id="reset-stopwatch">Reset Stopwatch</button>
+        </div>
+
+        <!-- Countdown Timer Input & Controls -->
+        <div class="input-row">
+            <input type="number" id="countdown-input" placeholder="Enter seconds" />
+        </div>
+        <div class="button-row">
+            <button id="start-countdown">Start Countdown</button>
+            <button id="stop-countdown">Stop Countdown</button>
+            <button id="reset-countdown">Reset Countdown</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
